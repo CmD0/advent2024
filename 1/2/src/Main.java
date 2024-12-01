@@ -14,6 +14,7 @@ public class Main {
                 arr1[i] = scan.nextInt();
                 arr2[i] = scan.nextInt();
             }
+            scan.close();
 
             int total = 0;
             Arrays.sort(arr1);
